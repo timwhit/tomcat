@@ -59,5 +59,5 @@ end
 
 # Enabling tomcat service and starting
 service 'tomcat' do
-  action [:enable, :start]
+  action [:enable]
 end
